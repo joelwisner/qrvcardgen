@@ -99,7 +99,7 @@ with open('contacts.csv', newline='') as csvfile:
       htmlfile.write('<H3>' + dispname + '</H3></DIV><TD>\n')
 
 # If we are at the numcolumns level, close the table row and open a new one.
-      if(thecount % numcolums == 0):
+      if(thecount % numcolumns == 0):
          htmlfile.write('</TR><TR>')
 
 # End of the iteration
